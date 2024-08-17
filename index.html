@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="songlist"></div>
+        <h1>Song</h1>
+        <div class="songitems">
+            <span class="dur"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">2:25</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="0"></i></span>
+        </div>
+        <div class="songitems">
+            <span class="dur"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">5:15</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="1"></i></span>
+        </div>
+        <div class="songitems">
+            <span class="dur"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">3:56</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="2"></i></span>
+        </div>
+        <div class="songitems">
+            <span class="dur"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">2:59</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="3"></i></span>
+        </div>
+        <div class="songitems">
+            <span class="dur"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">2:33</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="4"></i></span>
+        </div>
+        <div class="songitems">
+            <span class="dur" id="six"><img src="cover/1.jpg" alt=""></span><span class="songname"><p>Dur Na Karin</p></span><span class="time">3:16</span><span clsass="icon-header"><i class="fa-solid songItemPlay fa-play" id="5"></i></span>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icon">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward" id="next" ></i>
+            <!-- --fontawesome -->
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif"  width="24px" class="gif">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7cd166697e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
